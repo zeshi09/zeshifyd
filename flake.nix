@@ -21,7 +21,7 @@
           version = "0.1.0";
           src = ./.;
           subPackages = ["cmd/zeshifyd"];
-          vendorSha256 = null;
+          vendorHash = null;
         };
 
         zeshifyctl = pkgs.buildGoModule {
@@ -29,7 +29,7 @@
           version = "0.1.0";
           src = ./.;
           subPackages = ["cmd/zeshifyctl"];
-          vendorSha256 = null;
+          vendorHash = null;
         };
 
         default = pkgs.symlinkJoin {
