@@ -30,6 +30,8 @@ control over how notifications appear — especially in `waybar`.
 }
 ```
 
+![For example](images/screen.png)
+
 ---
 
 ## 🛠 CLI Usage
