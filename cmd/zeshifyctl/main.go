@@ -97,7 +97,7 @@ func main() {
 				}
 			} else {
 				n := baseRead()
-				fmt.Fprintf(os.Stdout, "🔔 %s: %s\n", n.Summary, n.Body)
+				fmt.Fprintf(os.Stdout, " %s: %s\n", n.Summary, n.Body)
 			}
 		},
 	}
